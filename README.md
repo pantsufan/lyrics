@@ -1,2 +1,2 @@
-# lyrics
-A Lyrics Searching Website
+# Lyrics Searcher
+A Lyrics Searching Website Made using https://lyrics.ovh/ API
