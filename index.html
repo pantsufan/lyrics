@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<script src="https://kit.fontawesome.com/8d94fdd51d.js"></script>
+<title>Lyrics Searcher</title>
+</head>
+<body>
+    <div class="jumbotron jumbotron-dark text-center">
+        <h1 class="display-4">Lyrics <i class="fas fa-music"></i> Searcher</h1>
+        <p class="lead">Made by Kninja28</p>
+    </div>
+    <br>
+    <div class="container p-4">
+        <h3 class="text-primary text-uppercase display-3">Search:</h3> (Supports Only English Songs) <br> <br>
+        <b>Artist:</b> <input class="" id="artist" type="text"> <br> <br>
+        <b>Song:</b> <input id="song" type="text"> <br> <br>
+        <input class="btn btn-primary" type="button" value="Get Lyrics" onclick="search()">
+    </div>
+    <br>
+    <div class="container">
+        <h4 class="p-4 m-2" id="song_details"></h4>
+    </div>
+    <br> <br>
+<script src="search.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
